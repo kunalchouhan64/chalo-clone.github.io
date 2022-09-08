@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+
+.btn{
+    transition: all 0.3s linear;
+}
+.btn:hover{
+    background-color: rgb(248, 162, 3);
+    color: white;
+}
+
+@media screen and (max-width: 1350px) {
+
+
+    /* .Hero-Section{
+        padding-top: 0;
+        background-color: red;
+        flex-direction: column;
+        padding-left: 0px;
+        gap: 0;
+        padding-right: 0;
+        height: 150vh;
+    } */
+    .Hero-img{
+        height: 10rem;
+        width: 10rem;
+    }
+}
